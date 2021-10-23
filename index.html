@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <section class="main">
+        <div class="content-wrapper">
+            <aside class="left">
+                <div class="navbar">
+                    <div class="logo">
+                       <span class="logo-icon"><i class="fa fa-plus"></i></span> Clinique Plus
+                    </div>
+                    <nav>
+                        <ul class="links">
+                            <li class="li-link has-children 3 active-link">
+                                <div class="content">
+                                    <a href="#" class="link">
+                                        <span class="link-icon"><i class="fa fa-tachometer"></i></span>
+                                          Bed Status</a> 
+                                    <span class="link-icon arrow"><i class="fa fa-right-long"></i></span>
+                                </div>
+                            </li>
+                            <li class="li-link">
+                                <div class="content">
+                                    <a href="#" class="link"> 
+                                        <span class="link-icon"><i class="fa fa-suitcase-medical"></i></span>
+                                         Front Office</a> 
+                                    <span class="link-icon arrow"><i class="fa fa-chevron-right"></i></span>
+                                </div>
+                            </li>
+                            <li class="li-link has-children 2">
+                                <div class="content">
+                                    <a href="#" class="link">
+                                        <span class="link-icon"><i class="fa fa-stethoscope"></i></span>
+                                          HIS </a> 
+                                    <span class="link-icon arrow"><i class="fa fa-chevron-right"></i></span>
+                                </div>
+                            </li>
+                            <li class="li-link">
+                               <div class="content">
+                                    <a href="#" class="link"> 
+                                        <span class="link-icon"><i class="fa fa-tint"></i></span>
+                                        Blood Bank </a> 
+                               </div>
+                            </li>
+                            <li class="li-link has-children 1">
+                                <div class="content">
+                                    <a href="#" class="link">
+                                        <span class="link-icon"><i class="fa fa-stethoscope"></i></span>
+                                          LIS </a> 
+                                    <span class="link-icon arrow"><i class="fa fa-chevron-right"></i></span>
+                                </div>
+                                <ul class="children">
+                                    <li><a href="#">Order</a></li>
+                                    <li><a href="#">QC</a></li>
+                                    <li><a href="#">Phleb</a></li>
+                                    <li><a href="#">Analysers</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-link">
+                                 <div class="content">
+                                    <a href="#" class="link">
+                                        <span class="link-icon"><i class="fa fa-chart-line"></i></span>
+                                          RIS </a> 
+                                 </div>
+                            </li>
+                            <li class="li-link">
+                                <div class="content">
+                                    <a href="#" class="link">
+                                        <span class="link-icon"><i class="fa fa-heart"></i></span>
+                                          Insurance </a> 
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            <aside class="right">
+                    <header>
+                        <div class="content">
+                            <span class="toggle"><i class="fa fa-bars"></i></span>
+                            <div class="search-patient">
+                                <span class="search-icon"><i class="fa fa-search"></i></span>
+                                <input type="text" name="" id="" placeholder=" Search for patient">
+                            </div>
+                            <div class="right">
+                                <div class="notify">
+                                    <span class="icon notification-icon has-message">
+                                        <i class="fa fa-bell"></i>
+                                        <span class="hover"></span>
+                                    </span>
+                                    <span class="icon message-icon">
+                                        <i class="fa fa-envelope"></i>
+                                        <span class="hover"></span>
+                                    </span>
+                                    <span class="icon arrow-icon">
+                                        <i class="fa fa-arrows-alt"></i>
+                                        <span class="hover"></span>
+                                    </span>
+                                </div>
+                                <div class="avatar" id="avatar-menu">
+                                    <img src="assets/images/avatar.png" alt="avatar">
+                                    <div class="about">
+                                        <span class="name">Samson Monday</span>
+                                        <span class="arrow-icon"><i class="fa fa-chevron-down"></i></span>
+                                    </div>
+                                    <div class="user-menu">
+                                        <ul>
+                                            <li>
+                                                <span class="menu-icon"><i class="fa fa-user"></i></span>
+                                                <a href="#" class="link">Profile <br> Update & manage</a>
+                                            </li>
+                                            <li>
+                                                <span class="menu-icon"><i class="fa fa-shield-alt"></i></span>
+                                                <a href="#" class="link">Help & Support <br> Contact & FAQ</a>
+                                            </li>
+                                            <li>
+                                                <span class="menu-icon"><i class="fa fa-exclamation-triangle"></i></span>
+                                                <a href="#" class="link">Complaints <br> Report error </a>
+                                            </li>
+                                        </ul>
+                                        <span class="caret-up-icon"><i class="fas fa-caret-up"></i></span>
+                                        <a href="#" class="btn-logout"><span class="logout-icon"><i class="fa fa-power-off"></i></span> Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <section class="main-content">
+                        <aside class="left-aside">
+                            <div class="avatar">
+                                <img class="profile-pic" src="assets/images/avatar.png" alt="profile-pic">
+                                <span class="name">Samson Monday</span>
+                            </div>
+                           <div class="navigator">
+                            <a href="#" class="btn">Change Password</a>
+                            <a href="#" class="btn edit">Edit</a>
+                           </div>
+                            <ul>
+                                <li>
+                                    <span>Staff ID</span>
+                                    <span>staff001w222</span>
+                                </li>
+                                <li>
+                                    <span>Role</span>
+                                    <span>Admin</span>
+                                </li>
+                                <li>
+                                    <span>Designation</span>
+                                    <span>CMD</span>
+                                </li>
+                                <li>
+                                    <span>Department</span>
+                                    <span>4</span>
+                                </li>
+                            </ul>
+                        </aside>
+                        <aside class="right-aside">
+                            <div class="breadcrumb">HR/Staff Profile</div>
+                            <div class="tabs">
+                                <a class="tab active" href="#">Profile</a>
+                                <a class="tab" href="#">Payroll</a>
+                                <a class="tab" href="#">Leaves</a>
+                                <a class="tab" href="#">Attendance</a>
+                                <a class="tab" href="#">Documents</a>
+                                <a class="tab" href="#">Timeline</a>
+                            </div>
+                            <div class="content">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Phone</td>
+                                            <td>+2347062251201</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Emergency Contact</td>
+                                            <td>1212121</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td>isaacodinakafranklin@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Date of Birth</td>
+                                            <td>2021-07-26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Specialty</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Father Name</td>
+                                            <td>Edwin Isaac</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mother Maiden Name</td>
+                                            <td>Loveth Ndukuba</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Highest Qualification</td>
+                                            <td>B.Eng</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Qualification Date</td>
+                                            <td>2021</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </aside>
+                    </section>
+            </aside>
+        </div>
+        <footer>
+            <div class="copyright">CliniquePlus EMR by Netwalkers NG (c) 2021. All right reserved.</div>
+        
+            <div class="quick-links">
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Terms Of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </footer>
+    </section>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
