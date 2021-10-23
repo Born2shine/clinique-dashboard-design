@@ -15,4 +15,9 @@ $(document).ready(() =>{
         li = $('.has-children').removeClass('active-link')
         e.target.closest('.has-children').classList.toggle('active-link')
    })
+
+   $('.tab').click((e) =>{
+        $('.tab').removeClass('active')
+        e.target.classList.toggle('active')
+   })
 })
